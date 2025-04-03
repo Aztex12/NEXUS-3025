@@ -28,3 +28,6 @@ jobs:
         with:
           name: Nexus-3025-debug-apk
           path: app/build/outputs/apk/debug/app-debug.apk
+
+      - name: Display download instructions
+        run: echo "Your APK has been built and uploaded as an artifact named 'Nexus-3025-debug-apk'. To download it, go to the Actions tab, select this workflow run, scroll down to the Artifacts section, and click the artifact."
